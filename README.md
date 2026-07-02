@@ -22,6 +22,13 @@ The RSVP and ticket buttons point to:
 https://pools.events/event/7WG2AdGP/august-2026-event-organizer-meetup/
 ```
 
+Durable Pools pages:
+
+```text
+Upcoming events profile: https://pools.events/o/nyc-event-organizers/
+Splash / all-links page: https://pools.events/os/nyc-event-organizers/
+```
+
 Current event details:
 
 - August 2026 Event Organizer Meetup

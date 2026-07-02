@@ -78,6 +78,7 @@ img {
   gap: clamp(14px, 2vw, 28px);
   font-size: 0.9rem;
   font-weight: 800;
+  white-space: nowrap;
 }
 
 .nav-links a {
@@ -89,6 +90,7 @@ img {
   color: var(--ink);
   background: var(--white);
   border: 2px solid var(--white);
+  flex: 0 0 auto;
 }
 
 .hero {
@@ -428,6 +430,19 @@ img {
   margin: 24px 0 30px;
 }
 
+.connection-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px 22px;
+  margin-top: 22px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.connection-links a {
+  border-bottom: 2px solid currentColor;
+}
+
 .qr-card {
   display: grid;
   gap: 14px;
@@ -457,6 +472,13 @@ img {
   color: var(--coral-deep);
 }
 
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 14px 22px;
+}
+
 @media (max-width: 880px) {
   .site-header {
     align-items: flex-start;
@@ -465,8 +487,9 @@ img {
 
   .nav-links {
     width: 100%;
-    justify-content: space-between;
+    justify-content: flex-start;
     overflow-x: auto;
+    padding-bottom: 3px;
   }
 
   .hero,
@@ -512,6 +535,10 @@ img {
     width: 100%;
   }
 
+  .nav-cta {
+    display: none;
+  }
+
   .art-note {
     right: -6px;
     bottom: 12px;
@@ -524,5 +551,9 @@ img {
 
   .site-footer {
     flex-direction: column;
+  }
+
+  .footer-links {
+    justify-content: flex-start;
   }
 }
