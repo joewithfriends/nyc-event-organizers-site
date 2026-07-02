@@ -16,11 +16,18 @@ Then visit:
 http://localhost:8000/
 ```
 
-The RSVP buttons point to:
+The RSVP and ticket buttons point to:
 
 ```text
-https://pools.events/t/nif8ozem/
+https://pools.events/event/7WG2AdGP/august-2026-event-organizer-meetup/
 ```
+
+Current event details:
+
+- August 2026 Event Organizer Meetup
+- Tuesday, August 25 at 7:00pm
+- New York, NY
+- Free tickets
 
 ## Main Files
 

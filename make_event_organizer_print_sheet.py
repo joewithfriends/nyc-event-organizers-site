@@ -19,7 +19,7 @@ PREVIEW_FRONT = Path("nyc_event_organizers_front_preview.png")
 PREVIEW_BACK = Path("nyc_event_organizers_back_preview.png")
 QR_PREVIEW = Path("nyc_event_organizers_rsvp_qr.png")
 
-RSVP_URL = "https://pools.events/t/nif8ozem/"
+RSVP_URL = "https://pools.events/event/7WG2AdGP/august-2026-event-organizer-meetup/"
 
 PAGE_W, PAGE_H = landscape(letter)
 COLS = 4
