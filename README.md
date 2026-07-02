@@ -27,6 +27,7 @@ Durable Pools pages:
 ```text
 Upcoming events profile: https://pools.events/o/nyc-event-organizers/
 Splash / all-links page: https://pools.events/os/nyc-event-organizers/
+Old Notion community page: https://organizers.notion.site/?source=copy_link
 ```
 
 Current event details:
@@ -42,3 +43,4 @@ Current event details:
 - `styles.css` controls the visual design and mobile layout.
 - `nyc_event_organizers_*.png` are the image assets used by the site.
 - `make_event_organizer_print_sheet.py` is the script that generated the flyer/QR print assets.
+- `docs/notion-cms.md` explains how the Notion page could become a lightweight CMS later.

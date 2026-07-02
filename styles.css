@@ -115,6 +115,7 @@ img {
 .intro-band h2,
 .format-copy h2,
 .community-section h2,
+.resources-section h2,
 .rsvp-section h2 {
   margin: 0;
   letter-spacing: 0;
@@ -277,6 +278,7 @@ img {
 .intro-band,
 .format-section,
 .community-section,
+.resources-section,
 .rsvp-section {
   padding: clamp(64px, 9vw, 120px) clamp(18px, 5vw, 72px);
 }
@@ -289,6 +291,7 @@ img {
 .benefit-grid,
 .format-section,
 .community-section,
+.resources-section,
 .rsvp-section,
 .site-footer {
   max-width: var(--max);
@@ -305,12 +308,14 @@ img {
 .section-heading h2,
 .format-copy h2,
 .community-section h2,
+.resources-section h2,
 .rsvp-section h2 {
   font-size: clamp(2.6rem, 6vw, 6.4rem);
 }
 
 .section-heading p,
 .community-copy p,
+.resources-intro p,
 .rsvp-section p {
   margin: 0;
   font-size: clamp(1rem, 1.7vw, 1.26rem);
@@ -416,6 +421,76 @@ img {
   gap: 22px;
 }
 
+.resources-section {
+  background: var(--paper);
+}
+
+.resources-intro {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(280px, 0.66fr);
+  gap: 36px;
+  align-items: end;
+}
+
+.resource-links {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  margin-top: clamp(34px, 5vw, 58px);
+}
+
+.resource-links a {
+  min-height: 170px;
+  padding: 24px;
+  color: var(--white);
+  background: var(--ink);
+  border: 2px solid var(--ink);
+  box-shadow: 8px 8px 0 var(--coral);
+  font-weight: 650;
+}
+
+.resource-links span {
+  display: block;
+  margin-bottom: 16px;
+  color: var(--mint);
+  font-size: 1.2rem;
+  font-weight: 950;
+  text-transform: uppercase;
+}
+
+.puzzle-board {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1px;
+  margin-top: clamp(34px, 5vw, 58px);
+  background: var(--ink);
+  border: 2px solid var(--ink);
+}
+
+.puzzle-board article {
+  min-height: 260px;
+  padding: 24px;
+  background: var(--white);
+}
+
+.puzzle-board span {
+  color: var(--coral-deep);
+  font-weight: 950;
+  text-transform: uppercase;
+}
+
+.puzzle-board h3 {
+  margin: 22px 0 12px;
+  font-size: 1.32rem;
+  line-height: 1.04;
+}
+
+.puzzle-board p {
+  margin: 0;
+  color: rgba(23, 21, 21, 0.76);
+  font-weight: 580;
+}
+
 .rsvp-section {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(220px, 320px);
@@ -496,6 +571,7 @@ img {
   .section-heading,
   .format-section,
   .community-section,
+  .resources-intro,
   .rsvp-section {
     grid-template-columns: 1fr;
   }
@@ -509,6 +585,11 @@ img {
   }
 
   .benefit-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .resource-links,
+  .puzzle-board {
     grid-template-columns: 1fr;
   }
 }
