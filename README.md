@@ -44,3 +44,5 @@ Current event details:
 - `nyc_event_organizers_*.png` are the image assets used by the site.
 - `make_event_organizer_print_sheet.py` is the script that generated the flyer/QR print assets.
 - `docs/notion-cms.md` explains how the Notion page could become a lightweight CMS later.
+- `docs/pools-activity-webhook.md` explains how to safely use the Pools activity webhook without exposing private data.
+- `.env.example` shows the private webhook setting name without committing the real URL.
