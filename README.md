@@ -33,9 +33,9 @@ Old Notion community page: https://organizers.notion.site/?source=copy_link
 Current event details:
 
 - August 2026 Event Organizer Meetup
-- Tuesday, August 25 at 7:00pm
-- New York, NY
-- Free tickets
+- Tuesday, August 18 at 7:00pm
+- Prime Produce, 424 W 54th St, New York, NY
+- Free–$5 tickets
 
 ## Main Files
 
